@@ -33,7 +33,7 @@ At the prompt:
 | Input | Result |
 |-------|--------|
 | `i` | Appends the password to the output file and prints the save location |
-| Anything else | Nothing is saved and `IMPORT FAILED:` is printed |
+| Anything else | Nothing is saved and `IMPORT FAILED` is printed |
 
 ## Settings
 
@@ -43,8 +43,8 @@ All settings are variables near the top of `password_generator.py`. Edit them di
 
 | Variable | Default | Description |
 |----------|---------|-------------|
-| `upper` | `True` | Include uppercase letters (`A-Z`) |
-| `lower` | `True` | Include lowercase letters (`a-z`) |
+| `upperc` | `True` | Include uppercase letters (`A-Z`) |
+| `lowerc` | `True` | Include lowercase letters (`a-z`) |
 | `nums` | `True` | Include digits (`0-9`) |
 | `syms` | `True` | Include symbols (`~!@#$%^&*()_+-=[]{}\|;:'",./?`) |
 
